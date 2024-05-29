@@ -20,9 +20,7 @@ I'm a [Your Job Title] with a passion for [Your Interests/Hobbies]. I love to [Y
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=# Hi there, I'm [Your Name] 👋
-
-![Your Banner Image](https://link-to-your-banner-image.com)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Anuragbhati Hi there, I'm [Anurag Bhati] 👋
 
 ## 🚀 About Me
 
@@ -49,7 +47,7 @@ I'm a [Your Job Title] with a passion for [Your Interests/Hobbies]. I love to [Y
 
 ## 🏆 GitHub Trophies
 
-![trophy](https://github-profile-trophy.vercel.app/?username=your-username&theme=onedark)
+![trophy](https://github-profile-trophy.vercel.app/?username=Anuragbhati&theme=onedark)
 
 ## 🔗 Connect with Me
 
@@ -101,12 +99,12 @@ I'm a [Your Job Title] with a passion for [Your Interests/Hobbies]. I love to [Y
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Anuragbhati&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anuragbhati&layout=compact&theme=radical)
 
 ## 🏆 GitHub Trophies
 
-![trophy](https://github-profile-trophy.vercel.app/?username=your-username&theme=onedark)
+![trophy](https://github-profile-trophy.vercel.app/?username=Anuragbhati&theme=onedark)
 
 ## 🔗 Connect with Me
 
@@ -137,7 +135,7 @@ I'm a [Your Job Title] with a passion for [Your Interests/Hobbies]. I love to [Y
 
 ## 🏆 GitHub Trophies
 
-![trophy](https://github-profile-trophy.vercel.app/?username=your-username&theme=onedark)
+![trophy](https://github-profile-trophy.vercel.app/?username=Anuragbhati&theme=onedark)
 
 ## 🔗 Connect with Me
 
