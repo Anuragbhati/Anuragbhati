@@ -1,0 +1,114 @@
+name: Update README with Company Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs weekly
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch GitHub Stats from Company Account
+        env:
+          GITHUB_TOKEN: ${{ secrets.COMPANY_PAT }}
+        run: |
+          # Fetch contributions stats
+          STATS=$(curl -H "Authorization: token $GITHUB_TOKEN" https://github-readme-stats.vercel.app/api?username=AnuragParagon&count_private=true&show_icons=true&theme=radical)
+          
+          # Fetch top languages stats
+          LANGS=$(curl -H "Authorization: token $GITHUB_TOKEN" https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragParagon&layout=compact&theme=radical&count_private=true)
+          
+          # Fetch trophies
+          TROPHIES=$(curl -H "Authorization: token $GITHUB_TOKEN" https://github-profile-trophy.vercel.app/?username=AnuragParagon&theme=onedark)
+          
+          # Create or update README.md
+          echo "# Hi there, I'm Anurag Bhati 👋" > README.md
+          echo "" >> README.md
+          echo "![Banner](https://link-to-your-banner-image.com)" >> README.md
+          echo "" >> README.md
+          echo "## 🚀 About Me" >> README.md
+          echo "" >> README.md
+          echo "I'm a Full Stack Web Developer with expertise in **TypeScript**, **React**, **Node.js**, **Express**, **MongoDB**, and **PostgreSQL**. I love to create dynamic and responsive web applications and contribute to open-source projects." >> README.md
+          echo "" >> README.md
+          echo "- 🔭 I’m currently working on [Current Project or Learning Goal]" >> README.md
+          echo "- 🌱 I’m currently learning [New Technology or Skill]" >> README.md
+          echo "- 👯 I’m looking to collaborate on innovative web development projects" >> README.md
+          echo "- 🤔 I’m looking for help with [Specific Issue or Learning Goal]" >> README.md
+          echo "- 💬 Ask me about web development, TypeScript, and React" >> README.md
+          echo "- 📫 How to reach me: [anuragbhati@example.com](mailto:anuragbhati@example.com)" >> README.md
+          echo "- ⚡ Fun fact: I love exploring new tech and playing chess" >> README.md
+          echo "" >> README.md
+          echo "## 🛠️ Skills" >> README.md
+          echo "" >> README.md
+          echo "- **Languages**:" >> README.md
+          echo "  ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)" >> README.md
+          echo "  ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)" >> README.md
+          echo "  ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)" >> README.md
+          echo "" >> README.md
+          echo "- **Frontend**:" >> README.md
+          echo "  ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)" >> README.md
+          echo "  ![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5)" >> README.md
+          echo "  ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)" >> README.md
+          echo "  ![Sass](https://img.shields.io/badge/-Sass-black?style=flat-square&logo=sass)" >> README.md
+          echo "" >> README.md
+          echo "- **Backend**:" >> README.md
+          echo "  ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)" >> README.md
+          echo "  ![Express](https://img.shields.io/badge/-Express-black?style=flat-square&logo=express)" >> README.md
+          echo "" >> README.md
+          echo "- **Databases**:" >> README.md
+          echo "  ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)" >> README.md
+          echo "  ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql)" >> README.md
+          echo "" >> README.md
+          echo "- **Tools**:" >> README.md
+          echo "  ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)" >> README.md
+          echo "  ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)" >> README.md
+          echo "  ![VS Code](https://img.shields.io/badge/-VS%20Code-black?style=flat-square&logo=visual-studio-code)" >> README.md
+          echo "" >> README.md
+          echo "## 📈 GitHub Stats" >> README.md
+          echo "" >> README.md
+          echo "$STATS" >> README.md
+          echo "$LANGS" >> README.md
+          echo "" >> README.md
+          echo "## 🏆 GitHub Trophies" >> README.md
+          echo "" >> README.md
+          echo "$TROPHIES" >> README.md
+          echo "" >> README.md
+          echo "## 🔗 Connect with Me" >> README.md
+          echo "" >> README.md
+          echo "[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/your-linkedin/)" >> README.md
+          echo "[![Twitter](https://img.shields.io/badge/-Twitter-black?style=flat-square&logo=twitter)](https://twitter.com/your-twitter/)" >> README.md
+          echo "[![Personal Website](https://img.shields.io/badge/-Personal%20Website-black?style=flat-square&logo=google-chrome)](https://your-website.com)" >> README.md
+          echo "[![Email](https://img.shields.io/badge/-Email-black?style=flat-square&logo=gmail)](mailto:anuragbhati@example.com)" >> README.md
+          echo "" >> README.md
+          echo "## 📚 Latest Blog Posts" >> README.md
+          echo "" >> README.md
+          echo "<!-- BLOG-POST-LIST:START -->" >> README.md
+          echo "- [Post Title 1](https://link-to-your-blog-post.com)" >> README.md
+          echo "- [Post Title 2](https://link-to-your-blog-post.com)" >> README.md
+          echo "- [Post Title 3](https://link-to-your-blog-post.com)" >> README.md
+          echo "<!-- BLOG-POST-LIST:END -->" >> README.md
+          echo "" >> README.md
+          echo "## 🌟 Featured Projects" >> README.md
+          echo "" >> README.md
+          echo "### [Project 1 Name](https://github.com/Anuragbhati/project-1)" >> README.md
+          echo "![Project 1 Image](https://link-to-project-1-image.com)" >> README.md
+          echo "[Project 1 Description]" >> README.md
+          echo "" >> README.md
+          echo "### [Project 2 Name](https://github.com/Anuragbhati/project-2)" >> README.md
+          echo "![Project 2 Image](https://link-to-project-2-image.com)" >> README.md
+          echo "[Project 2 Description]" >> README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m 'Update README with company stats'
+          git push
