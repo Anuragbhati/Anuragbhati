@@ -4,10 +4,9 @@
 
 I'm a Full Stack Web Developer with expertise in **TypeScript**, **React**, **Node.js**, **Express**, **MongoDB**, and **PostgreSQL**. I love to create dynamic and responsive web applications and contribute to open-source projects.
 
-- 🔭 I’m currently working on [Current Project or Learning Goal]
-- 🌱 I’m currently learning [New Technology or Skill]
+- 🔭 I’m currently working on [Url shortner app with analytics]
+- 🌱 I’m currently learning [kafka,redis and AWS]
 - 👯 I’m looking to collaborate on innovative web development projects
-- 🤔 I’m looking for help with [Specific Issue or Learning Goal]
 - 💬 Ask me about web development, TypeScript, and React
 - 📫 How to reach me: [anuragbhati679@gmail.com.com](mailto:anuragbhati679@gmail.com.com)
 - ⚡ Fun fact: I love exploring new tech and playing chess
@@ -46,29 +45,4 @@ I'm a Full Stack Web Developer with expertise in **TypeScript**, **React**, **No
 ## 🏆 GitHub Trophies
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=Anuragbhati&theme=onedark)
-
-## 🔗 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/your-linkedin/)
-[![Twitter](https://img.shields.io/badge/-Twitter-black?style=flat-square&logo=twitter)](https://twitter.com/your-twitter/)
-[![Personal Website](https://img.shields.io/badge/-Personal%20Website-black?style=flat-square&logo=google-chrome)](https://your-website.com)
-[![Email](https://img.shields.io/badge/-Email-black?style=flat-square&logo=gmail)](mailto:anuragbhati@example.com)
-
-## 📚 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Post Title 1](https://link-to-your-blog-post.com)
-- [Post Title 2](https://link-to-your-blog-post.com)
-- [Post Title 3](https://link-to-your-blog-post.com)
-<!-- BLOG-POST-LIST:END -->
-
-## 🌟 Featured Projects
-
-### [Project 1 Name](https://github.com/Anuragbhati/project-1)
-![Project 1 Image](https://link-to-project-1-image.com) <!-- Replace with actual project image link -->
-[Project 1 Description]
-
-### [Project 2 Name](https://github.com/Anuragbhati/project-2)
-![Project 2 Image](https://link-to-project-2-image.com) <!-- Replace with actual project image link -->
-[Project 2 Description]
 
