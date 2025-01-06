@@ -42,6 +42,15 @@ I'm a Full Stack Web Developer with expertise in **TypeScript**, **React**, **No
 ![Anurag's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Anuragbhati&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anuragbhati&layout=compact&theme=radical)
 
+<h3>Professional Account</h3>
+ <img width="48%" src="https://github-readme-stats.vercel.app/api?username=AnuragParagon&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragParagon&theme=tokyonight" />
+  </br>
+  <h3>Personal Account</h3>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Anuragbhati&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Anuragbhati&theme=tokyonight" />
+
+
 ## 🏆 GitHub Trophies
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=Anuragbhati&theme=onedark)
